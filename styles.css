@@ -1,0 +1,103 @@
+/* Importation d'une police moderne */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #333, #555);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+#presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.presentation-text {
+    max-width: 600px;
+    text-align: center;
+}
+
+.project {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    transition: background 0.3s;
+}
+
+.project:hover {
+    background: #f1f1f1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
